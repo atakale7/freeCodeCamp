@@ -1,0 +1,11 @@
+1. Linear Regression
+   - Most basic form of ML
+   - used to predict numeric values
+   - most useful when you have data points that correlate in linear fashion
+   - line of best fit refers to a line through a scatter plot of data points that best expresses the relationship between points
+   - linear approach to modelling a relationship between a target (dependent) variable and one or more explanatory variables (independent) variables
+   - Equation of a line y = mx + b
+     - m = slope of line (rise vs run)
+     - b = y-intercept
+   - close to as many data points as possible with even split of points
+   - 

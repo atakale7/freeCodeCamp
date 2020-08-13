@@ -1,0 +1,31 @@
+- TensorFlow is an open source framework developed by Google Brain Team
+- aim is to make machine learning, deep learning and neural networks easier to use
+
+- Introduction: Machine Learning Fundamentals
+  - Artificial Intelligence
+    - Effort to automate intellectual tasks normally performed by humans
+    - Evolved in 1950s - Can computers think?
+    - Initially thought as predefined set of rules
+    - very good AI was just a very good set of rules
+    - AI can be simple (specific task) or complex (ability to perform multiple tasks)
+    - simulating intellectual human behavior
+  - Machine Learning
+    - ML figures out the rules for us
+    - Take the input data and take the output and find patterns and generates rules
+    - Classical Programming models - Data and Rules -> Answers
+    - Machine Learning models - Data and Answers -> Rules
+    - Goal for machine learning models -> achieve the highest accuracy possible
+    - Rather than giving program the rules, an algorithm finds the rules for us
+  - Neural Networks and Deep Learning
+    - form of ML that used a layered representation of data
+    - Input layer, hidden layer and output layer
+    - multi-stage information extraction
+    - inspired from biological concept of human learning - not neccessarily models it
+  - Data
+    - features, independent variable, input to model
+    - label, output, dependant variable, target
+    - tons of data is required for training the model
+
+    
+    
+  
