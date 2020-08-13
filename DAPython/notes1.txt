@@ -1,0 +1,116 @@
+1. Data Analysis:
+   - A process of inspecting, cleansing, transforming and modeling data with the goal of discovering  useful information, in forming conclusion and support decision-making
+   - Inferential statistics?
+   - Transform data into information
+   - Create readable reports and dashboards
+   - Auto managed closed tools
+     - Qlik, tableau, looker, zoho analytics
+     - closed source, expensive, limited, easy-to-learn
+   - Programming Languages:
+     - Python, R, Julia
+     - open source, free(or very cheap), extremely powerful, steep learning curve
+   - Python for Data Analysis
+     - simple and intuitive to learn
+     - "correct" language
+     - powerful libraries
+     - free and open source
+     - amazing community, docs and conferences
+   - R for Data Analysis
+     - when dealing with advanced statistical methods
+     - when extreme performance is needed
+     - when R studio is needed
+   - Data Gathering/ Data extraction
+     - SQL, web scraping
+     - file formats - csv, json, xml
+     - consulting APIs
+     - Buying data
+     - Distributed databases
+     - Real time data
+   - Data Cleaning
+     - Missing values and empty data
+     - Data imputation
+     - Incorrect types
+     - Incorrect or invalied values
+     - Outliers and non relevant data
+     - statistical sanitization
+   - Data Wrangling
+     - Hierarchial data
+     - Handling categorical data
+     - reshaping and transforming structures
+     - Indexing data for quick access
+     - merging, combining and joining data
+   - Data Analysis
+     - Exploration (EDA = Exploratory Data Analysis)
+     - Building statistical models
+     - Visualizations and representations
+     - correlation vs causation analysis?
+     - Hypothesis testing
+     - statistical analysis
+     - reporting
+   - Action
+     - Build ML models
+     - Feature Engineering
+     - Moving ML into production
+     - Building ETL pipelines
+     - Live dashboard and reporting
+     - Decision making and real-life tests
+   - Data Science vs Data Analysis
+     - Data scientists have more math and programming skills
+     - ETL process?
+     - Data analyts have better communication skills
+   - libraries
+     - pandas - foundation of data analysis, data manipulation and analysis, derived from panel data
+     - matplotlib - foundational library for visualizations
+     - numpy - numerical library, serves as foundation of all calculations in python
+     - seaborn - statistical visualization tool
+     - statsmodels - advanced statistical functions
+     - scipy - advanced scientific computing, including functions for optimization, linear algebra, image processing and much more
+     - scikit-learn - ML library
+
+2. Pandas
+    - series
+    - dataframe
+    - each column is tied to a specific data type
+    - shape represents (rows,cols)
+    - df - shape, info(), describe(), head()
+    - df['feature'].describe(), mean(), mode(), median()
+    - df['feature'].plot(kind='box', figsize=(12,8))
+    - df['feature'].value_counts().plot(kind="pie", figsize=(x,y))
+    - df.corr()
+    - scatter plots
+    - Derive data from other columns (create new column.feature)
+    - Selecting, filtering and indexing
+    - loc and iloc
+    - Read data from database
+      - Connectors available for all databases
+      - pd.read_sql()
+      
+3. Jupyter Notebook
+  - JupyterLab
+  - interactive real time environment
+  - supports python, R and Julia
+  - Sequence of multiple cells
+  - code, markdown or raw
+  - Export to pdf, html, ipynb, py formats
+  - Shortcuts for creating/deleting cells
+    - a, b, dd, undo(z), 
+  - Cell modes - mode based editor (like vim) - command(esc) and edit(enter/return)
+  - markdown(m) and python(y)
+  - execute (shift+enter) - switch to the following cell
+    - (ctrl+enter) stays at currently active cell
+  - Execute (play)
+  - %matplotlib inline
+  - csv, json, xml, api
+
+4. Bokeh - Interactive chart
+
+5. Numpy: Numeric computing library
+   - performance enhancement
+   - high performnant numeric computations
+   - used less frequently directly, but many libraries are based on numpy
+   - python list is actually a list of objects.
+     - Also there is no guarantee that the elements in list are stored in contiguous order
+   - numpy has built-in arrays
+     - Supports vectorized operations
+     - integrated and natural linear algebra API
+     - 
